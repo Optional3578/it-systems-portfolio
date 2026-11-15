@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A curated portfolio of IT and engineering coursework across systems, networking, security, databases, and project practice.">
+    <meta name="theme-color" content="#f6f5f0">
+    <title>IT &amp; Systems Portfolio</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="IT and Systems Portfolio home">
+        <span class="wordmark-mark" aria-hidden="true">IT</span>
+        <span>Portfolio<span class="wordmark-dot">.</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#work">Selected work <span aria-hidden="true">↘</span></a>
+        <a href="#approach">About this portfolio</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> IT · Systems · Engineering</p>
+          <h1 id="hero-title">Learning by<br><span>building systems.</span></h1>
+          <p class="hero-intro">A clear, curated look at coursework and project work across operating systems, networks, cybersecurity, databases, and software design.</p>
+          <a class="primary-link" href="#work">Explore the work <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <div class="art-center"><span>14</span><small>COURSES</small></div>
+          <span class="art-label label-one">SYSTEMS</span>
+          <span class="art-label label-two">NETWORKS</span>
+          <span class="art-label label-three">SECURITY</span>
+          <span class="art-star">✳</span>
+        </div>
+        <div class="hero-foot">
+          <span>Coursework, made navigable</span>
+          <span>14 course collections <span class="foot-divider">/</span> 5 areas of practice</span>
+        </div>
+      </section>
+
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> The portfolio</p>
+            <h2 id="work-title">Projects &amp; coursework</h2>
+          </div>
+          <p class="section-description">Each summary highlights the subject, approach, and kinds of work represented—without sharing original class files.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter projects by subject">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All work <span>14</span></button>
+          <button class="filter-button" type="button" data-filter="systems" aria-pressed="false">Systems</button>
+          <button class="filter-button" type="button" data-filter="networks" aria-pressed="false">Networks</button>
+          <button class="filter-button" type="button" data-filter="security" aria-pressed="false">Security</button>
+          <button class="filter-button" type="button" data-filter="information" aria-pressed="false">Information systems</button>
+          <button class="filter-button" type="button" data-filter="practice" aria-pressed="false">Project practice</button>
+        </div>
+        <p class="filter-status" id="filter-status" aria-live="polite">Showing all 14 course collections.</p>
+
+        <div class="project-grid" id="project-grid">
+          <article class="project-card card-blue" data-categories="systems">
+            <div class="card-topline"><span class="course-code">BN104</span><span class="card-index">01 / 14</span></div>
+            <h3>Operating Systems</h3>
+            <p class="card-summary">A sequence of practical labs and written work exploring how operating systems evolve and manage a computer’s resources.</p>
+            <div class="tag-list"><span>Memory &amp; processes</span><span>Unix</span><span>Virtualisation</span></div>
+            <p class="deliverable"><span>Work represented</span> Lab write-ups · OS assignments</p>
+          </article>
+
+          <article class="project-card card-sand" data-categories="networks">
+            <div class="card-topline"><span class="course-code">BN106</span><span class="card-index">02 / 14</span></div>
+            <h3>Networking Fundamentals</h3>
+            <p class="card-summary">Communication scenarios and network-design exercises, supported by labs on media, cabling, multiplexing, compression, LANs, switching, and wireless.</p>
+            <div class="tag-list"><span>Network design</span><span>Switching</span><span>Wireless</span></div>
+            <p class="deliverable"><span>Work represented</span> Network-design report · Lab write-ups</p>
+          </article>
+
+          <article class="project-card card-lilac" data-categories="information practice">
+            <div class="card-topline"><span class="course-code">BN110</span><span class="card-index">03 / 14</span></div>
+            <h3>Information Systems</h3>
+            <p class="card-summary">Case-based work on how organisations use information systems, business applications, and websites—and how those systems relate to competitive forces and usability.</p>
+            <div class="tag-list"><span>Business systems</span><span>Case analysis</span><span>Usability</span></div>
+            <p class="deliverable"><span>Work represented</span> Case-study assignments · Lab write-ups</p>
+          </article>
+
+          <article class="project-card card-ink" data-categories="networks security">
+            <div class="card-topline"><span class="course-code">BN200</span><span class="card-index">04 / 14</span></div>
+            <h3>Network Security Fundamentals</h3>
+            <p class="card-summary">Foundational security labs using virtual machines and Nmap exercises for host discovery, port scanning, and operating-system identification, alongside research on blockchain.</p>
+            <div class="tag-list"><span>Virtual machines</span><span>Network security</span><span>Blockchain</span></div>
+            <p class="deliverable"><span>Work represented</span> Guided lab write-ups · Research assignment</p>
+          </article>
+
+          <article class="project-card card-green" data-categories="security practice">
+            <div class="card-topline"><span class="course-code">BN201</span><span class="card-index">05 / 14</span></div>
+            <h3>Professional Issues of IT</h3>
+            <p class="card-summary">Professional practice, workplace ethics, and the wider impact of technology, explored through case analysis, reflective work, and research on IoT security.</p>
+            <div class="tag-list"><span>IT ethics</span><span>Professional practice</span><span>IoT</span></div>
+            <p class="deliverable"><span>Work represented</span> Case analysis · Research presentation</p>
+          </article>
+
+          <article class="project-card card-blue" data-categories="information">
+            <div class="card-topline"><span class="course-code">BN204</span><span class="card-index">06 / 14</span></div>
+            <h3>Database Technologies</h3>
+            <p class="card-summary">Relational design and SQL, from ER models and schemas to integrity, normalisation, queries, and administration. A driving-school database case study is documented in a design report.</p>
+            <div class="tag-list"><span>SQL</span><span>Data modelling</span><span>Normalisation</span></div>
+            <p class="deliverable"><span>Work represented</span> ER model &amp; schema · Database labs</p>
+          </article>
+
+          <article class="project-card card-orange" data-categories="practice">
+            <div class="card-topline"><span class="course-code">BN205</span><span class="card-index">07 / 14</span></div>
+            <h3>Project Management</h3>
+            <p class="card-summary">Project proposals and planning exercises covering scope, schedules, and resources, with case scenarios including an online payment system and enterprise IT security improvement.</p>
+            <div class="tag-list"><span>Scope &amp; planning</span><span>Schedules</span><span>Resources</span></div>
+            <p class="deliverable"><span>Work represented</span> Project proposals · Planning schedules</p>
+          </article>
+
+          <article class="project-card card-sand" data-categories="systems">
+            <div class="card-topline"><span class="course-code">BN206</span><span class="card-index">08 / 14</span></div>
+            <h3>System Administration</h3>
+            <p class="card-summary">A team report frames administration requirements for an organisation, complemented by Linux/Ubuntu and server-management labs involving users, command-line tasks, package management, policy, IIS, and SMTP.</p>
+            <div class="tag-list"><span>Linux</span><span>Server administration</span><span>Windows services</span></div>
+            <p class="deliverable"><span>Work represented</span> Team project report · Administration labs</p>
+          </article>
+
+          <article class="project-card card-lilac" data-categories="information practice">
+            <div class="card-topline"><span class="course-code">BN209</span><span class="card-index">09 / 14</span></div>
+            <h3>Software Engineering</h3>
+            <p class="card-summary">System analysis and design coursework centred on an Online Examination Management System, alongside lab work that follows software-engineering concepts through to implementation.</p>
+            <div class="tag-list"><span>System analysis</span><span>Software design</span><span>Implementation</span></div>
+            <p class="deliverable"><span>Work represented</span> System case study · Lab write-ups</p>
+          </article>
+
+          <article class="project-card card-ink" data-categories="security">
+            <div class="card-topline"><span class="course-code">BN223</span><span class="card-index">10 / 14</span></div>
+            <h3>Cyber Security Principles</h3>
+            <p class="card-summary">Research comparing privacy-oriented browsers and case-based reviews of security incidents, with attention to the lessons organisations can draw from them.</p>
+            <div class="tag-list"><span>Browser privacy</span><span>Incident analysis</span><span>Security research</span></div>
+            <p class="deliverable"><span>Work represented</span> Comparative research · Case report</p>
+          </article>
+
+          <article class="project-card card-green" data-categories="information practice">
+            <div class="card-topline"><span class="course-code">BN301</span><span class="card-index">11 / 14</span></div>
+            <h3>AI-Powered Health Insurance Claims</h3>
+            <p class="card-summary">A team industry-project report exploring an AI-supported health-insurance claims-processing concept through its problem context, objectives, research questions, and functional requirements.</p>
+            <div class="tag-list"><span>Industry project</span><span>AI concept</span><span>Requirements</span></div>
+            <p class="deliverable"><span>Work represented</span> Team project report</p>
+          </article>
+
+          <article class="project-card card-blue" data-categories="networks security">
+            <div class="card-topline"><span class="course-code">BN303</span><span class="card-index">12 / 14</span></div>
+            <h3>Wireless Network &amp; Security</h3>
+            <p class="card-summary">Written analysis of cellular-network generations and their security protocols, plus coursework comparing network tools and practical networking lab work.</p>
+            <div class="tag-list"><span>Wireless networks</span><span>Cellular security</span><span>Tool comparison</span></div>
+            <p class="deliverable"><span>Work represented</span> Technical report · Lab write-ups</p>
+          </article>
+
+          <article class="project-card card-orange" data-categories="security">
+            <div class="card-topline"><span class="course-code">BN309</span><span class="card-index">13 / 14</span></div>
+            <h3>Computer Forensics</h3>
+            <p class="card-summary">Forensics coursework on validating tools and evidence, paired with a digital-forensics analysis and recommendations covering cloud, IoT, and e-discovery topics.</p>
+            <div class="tag-list"><span>Digital forensics</span><span>Evidence handling</span><span>Cloud &amp; IoT</span></div>
+            <p class="deliverable"><span>Work represented</span> Forensics reports · Lab write-ups</p>
+          </article>
+
+          <article class="project-card card-sand" data-categories="information practice">
+            <div class="card-topline"><span class="course-code">BN314</span><span class="card-index">14 / 14</span></div>
+            <h3>System Architecture</h3>
+            <p class="card-summary">Business-information-system analysis through an online food-ordering system and shopping-cart case study, documenting stakeholder needs, functional and non-functional requirements, process models, and use cases.</p>
+            <div class="tag-list"><span>Requirements</span><span>Use cases</span><span>System modelling</span></div>
+            <p class="deliverable"><span>Work represented</span> System analysis · Case-study reports</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="approach-section" id="approach" aria-labelledby="approach-title">
+        <div class="approach-mark" aria-hidden="true"><span>↗</span></div>
+        <div class="approach-copy">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> A note on scope</p>
+          <h2 id="approach-title">The work, not the paperwork.</h2>
+          <p>This portfolio summarises topics and deliverables represented in course materials. Original assignments, databases, slides, project plans, and simulation files are intentionally not included. Team attribution is stated only where the source clearly identifies team work.</p>
+        </div>
+        <a class="back-to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-wordmark" href="#top"><span class="wordmark-mark" aria-hidden="true">IT</span><span>Portfolio<span class="wordmark-dot">.</span></span></a>
+      <p>Coursework summaries · IT &amp; Systems</p>
+      <a href="#work">Explore projects <span aria-hidden="true">↗</span></a>
+    </footer>
+  </body>
+</html>
