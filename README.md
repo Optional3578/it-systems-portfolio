@@ -23,4 +23,4 @@ GitHub Pages will provide the published site URL after its deployment completes.
 
 ## Public-content note
 
-The site contains newly written course summaries and labels for the kinds of deliverables represented in the source folders. It intentionally excludes original assignments, lab documents, databases, presentations, project plans, Packet Tracer files, student IDs, and classmates’ names. Group attribution is used only when the source clearly identifies team work. Review each summary for accuracy before sharing.
+The site contains newly written course summaries and labels for the kinds of deliverables represented in the source folders. It intentionally excludes original course documents, databases, presentations, project plans, Packet Tracer files, student IDs, and classmates’ names. Group attribution is used only when the source clearly identifies team work. Review each summary for accuracy before sharing.
